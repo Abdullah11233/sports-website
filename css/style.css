@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ======= Navbar =======  */
+.bg-body-tertiary {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin-right: 15%;
+}
+
+.btn-outline-success {
+    border-color: rgba(184, 194, 206, 1);
+    background-color: rgba(184, 194, 206, 1);
+    color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: white;
+    color: black;
+}
+
+.fa-magnifying-glass {
+    margin-right: 5px;
+}
+
+/* ======= Home =======  */
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: #F9FAFC;
+    background-image: url('../images/hero-bg.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+#home .container,
+#home .container .row {
+    height: 100%;
+}
+
+.aboutimg2 button {
+    border: 2px solid rgba(225, 232, 240, 1);
+    background-color: rgba(225, 232, 240, 1);
+    color: rgba(184, 194, 206, 1);
+    border-radius: 10%;
+    padding: 3px 8px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.aboutimg2 .aboutimg-1 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.274), rgba(255, 255, 255, 0.319)), url('../images/lady.png');
+    margin-bottom: 20px;
+    height: 230px;
+    width: 270px;
+    padding: 10px 10px;
+}
+
+.aboutimg2 p {
+    margin-top: 120px;
+    font-size: 15px;
+    color: rgba(38, 38, 38, 0.6);
+}
+
+.aboutimg2 .aboutimg-2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.274), rgba(255, 255, 255, 0.319)), url('../images/race-car-formula.png');
+    height: 230px;
+    padding: 10px 10px;
+    width: 270px;
+}
+
+.about-content2 button {
+    border: 2px solid rgba(38, 38, 38, 1);
+    background-color: rgba(38, 38, 38, 1);
+    color: white;
+    padding: 2px 15px;
+    border-radius: 5%;
+}
+
+/* ======= Category =======  */
+.div h6 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.category-boxex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box h3 {
+    border: 2px solid rgba(235, 238, 243, 1);
+    background-color: rgba(235, 238, 243, 1);
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.box .boximg {
+    width: 250px;
+    height: 270px;
+}
+
+/* ======= Trending News =======  */
+.trendingnews-content {
+    display: flex;
+    background-color: rgba(235, 238, 243, 1);
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.news1 {
+    margin-right: 100px;
+}
+
+.news1 h4 {
+    margin-top: 20px;
+}
+
+.new {
+    display: flex;
+    gap: 20px;
+}
+
+.newcontent p {
+    font-size: 13px;
+    color: rgba(105, 104, 104, 1);
+}
+
+.line {
+    border: 1px solid rgba(184, 194, 206, 1);
+    height: 1px;
+    width: 250px;
+    background-color: rgba(184, 194, 206, 1);
+    display: inline-block;
+}
+
+.newimg1 {
+    padding-bottom: 30px;
+}
+
+.news2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.313)), url('../images/sportsman-drinking-water-training-stationary-bike\ 1.png');
+    width: 1000px;
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    background-size: cover;
+}
+
+.news2 button {
+    border: 1px solid white;
+    background: transparent;
+    padding: 2px 10px;
+    color: white;
+    margin-bottom: 500px;
+}
+
+.news2 {
+    color: white;
+}
+
+.trendingnews-content2 {
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/two-opposing-players-give-handshake-end-game\ 1.jpg');
+    background-repeat: no-repeat;
+}
+
+.content2 {
+    color: white;
+    width: 65%;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.content2 button {
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 10%;
+    background-color: transparent;
+}
+
+.content2 .p {
+    margin-top: 230px;
+}
+
+.trendingnews-content2 .contentbox {
+    background-color: rgba(235, 238, 243, 1);
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    gap: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.contentbox p:hover {
+    border: 1px solid rgba(38, 38, 38, 1);
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(38, 38, 38, 1);
+    padding: 5px 10px;
+}
+
+.contentbox .fa-arrow-left {
+    border: 2px solid rgba(186, 184, 184, 1);
+    background-color: rgba(186, 184, 184, 1);
+    color: rgba(235, 238, 243, 1);
+    height: 35px;
+    padding: 5px 15px;
+}
+
+.contentbox .fa-arrow-right {
+    border: 2px solid rgba(38, 38, 38, 1);
+    background-color: rgba(38, 38, 38, 1);
+    color: rgba(235, 238, 243, 1);
+    height: 35px;
+    padding: 5px 15px;
+}
+
+/* ======= Recent News And Club Ranking =======  */
+.recentnews {
+    margin-bottom: 100px;
+}
+
+.karate-content {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 10%, #E2C194 40%);
+    color: white;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    border-radius: 2%;
+}
+
+.karate-content img {
+    width: 100%;
+}
+
+.karate-contents {
+    margin: 10px 0 0 10px;
+}
+
+.karate-contents p {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.part-2 {
+    background-color: #EBEEF3;
+    padding: 10px 10px;
+    border-radius: 2%;
+}
+
+.part-2 p {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.part-2 h5 {
+    font-size: 15px;
+}
+
+.part-2 img {
+    margin-bottom: 10px;
+}
+
+.part-2 .btn-outline-success {
+    margin-left: 80px;
+}
+
+.part-2 .btn-outline-success i {
+    margin-left: 10px;
+}
+
+.table-responsive table tr th,
+.table-responsive table tr td {
+    background: #EBEEF3;
+}
+
+.table-responsive {
+    border-radius: 2%;
+}
+
+.top {
+    display: flex;
+}
+
+.h3news {
+    margin-right: 390px;
+}
+
+/* ======= Sports Article =======  */
+.sports-article_section .fa-arrow-left {
+    border: 2px solid rgba(186, 184, 184, 1);
+    color: white;
+    background-color: rgba(186, 184, 184, 1);
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.sports-article_section .fa-arrow-right {
+    border: 2px solid rgba(38, 38, 38, 1);
+    color: white;
+    background-color: rgba(38, 38, 38, 1);
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.custom-card {
+    border: none;
+    position: relative;
+}
+
+.custom-card .card-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.custom-card .badge {
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    border: 1px solid white;
+    right: 15px;
+}
+
+.user {
+    margin-bottom: 10px;
+}
+
+.user p {
+    padding-top: 10px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.card-body p {
+    font-size: 15px;
+    color: rgba(105, 104, 104, 1);
+}
+
+.sports-article-section {
+    background-color: rgba(235, 238, 243, 1);
+    margin-top: 100px;
+}
+
+.section-1 img {
+    margin: 100px 0 40px 50px;
+}
+
+.form-control {
+    margin-left: 50px;
+    width: 450px;
+    background-color: transparent;
+    color: rgba(38, 38, 38, 0.37);
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.email i {
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    padding: 10px 15px;
+}
+
+.section-2 img {
+    width: 450px;
+}
+
+.bottom-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentbox {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.left i {
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    padding: 2px 5px;
+    margin-top: 20px;
+}
